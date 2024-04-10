@@ -155,19 +155,19 @@
                     These are very verbose and should be disabled under normal circumstances or will cause performance issues.</string>
 
                 <!-- Plugin Error Notifications -->
-                <string name="termux_plugin_error_notifications_enabled_title">Plugin Error Notifications</string>
-                <string name="termux_plugin_error_notifications_enabled_off">Disable flashes and notifications for plugin errors.</string>
-                <string name="termux_plugin_error_notifications_enabled_on">Show flashes and notifications for plugin errors. (Default)</string>
+                <string name="termux_plugin_error_notifications_enabled_title">插件错误通知</string>
+                <string name="termux_plugin_error_notifications_enabled_off">禁用插件错误的闪烁和通知</string>
+                <string name="termux_plugin_error_notifications_enabled_on">显示插件错误的闪烁和通知(默认)</string>
 
                 <!-- Crash Report Notifications -->
-                <string name="termux_crash_report_notifications_enabled_title">Crash Report Notifications</string>
-                <string name="termux_crash_report_notifications_enabled_off">Disable notifications for crash reports.</string>
-                <string name="termux_crash_report_notifications_enabled_on">Show notifications for crash reports. (Default)</string>
+                <string name="termux_crash_report_notifications_enabled_title">崩溃报告通知</string>
+                <string name="termux_crash_report_notifications_enabled_off">禁用崩溃报告的通知</string>
+                <string name="termux_crash_report_notifications_enabled_on">显示崩溃报告的通知(默认)</string>
 
 
         <!-- Terminal IO Preferences -->
         <string name="termux_terminal_io_preferences_title">Terminal I/O</string>
-        <string name="termux_terminal_io_preferences_summary">Preferences for terminal I/O</string>
+        <string name="termux_terminal_io_preferences_summary">Terminal I/O偏好设置</string>
 
             <!-- Keyboard Category -->
             <string name="termux_keyboard_header">键盘</string>
@@ -185,7 +185,7 @@
 
         <!-- Terminal View Preferences -->
         <string name="termux_terminal_view_preferences_title">Terminal View</string>
-        <string name="termux_terminal_view_preferences_summary">Preferences for terminal view</string>
+        <string name="termux_terminal_view_preferences_summary">Terminal view偏好设置</string>
 
             <!-- View Category -->
             <string name="termux_terminal_view_view_header">View</string>
@@ -201,32 +201,32 @@
 
     <!-- Termux:API App Preferences -->
     <string name="termux_api_preferences_title">&TERMUX_API_APP_NAME;</string>
-    <string name="termux_api_preferences_summary">Preferences for &TERMUX_API_APP_NAME; app</string>
+    <string name="termux_api_preferences_summary">&TERMUX_API_APP_NAME;偏好设置</string>
 
 
 
     <!-- Termux:Float App Preferences -->
     <string name="termux_float_preferences_title">&TERMUX_FLOAT_APP_NAME;</string>
-    <string name="termux_float_preferences_summary">Preferences for &TERMUX_FLOAT_APP_NAME; app</string>
+    <string name="termux_float_preferences_summary">&TERMUX_FLOAT_APP_NAME;偏好设置</string>
 
 
 
     <!-- Termux:Tasker App Preferences -->
     <string name="termux_tasker_preferences_title">&TERMUX_TASKER_APP_NAME;</string>
-    <string name="termux_tasker_preferences_summary">Preferences for &TERMUX_TASKER_APP_NAME; app</string>
+    <string name="termux_tasker_preferences_summary">&TERMUX_TASKER_APP_NAME;偏好设置</string>
 
 
 
     <!-- Termux:Widget App Preferences -->
     <string name="termux_widget_preferences_title">&TERMUX_WIDGET_APP_NAME;</string>
-    <string name="termux_widget_preferences_summary">Preferences for &TERMUX_WIDGET_APP_NAME; app</string>
+    <string name="termux_widget_preferences_summary">&TERMUX_WIDGET_APP_NAME;偏好设置</string>
 
 
 
     <!-- About Preference -->
-    <string name="about_preference_title">About</string>
+    <string name="about_preference_title">关于</string>
 
     <!-- Donate Preference -->
-    <string name="donate_preference_title">Donate</string>
+    <string name="donate_preference_title">捐赠</string>
 
 </resources>

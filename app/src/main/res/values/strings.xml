@@ -59,7 +59,7 @@
     <!-- Terminal Popup -->
     <string name="action_select_url">选择链接</string>
     <string name="title_select_url_dialog">点击复制链接或长按打开链接</string>
-    <string name="title_select_url_none_found">没有找到链接/string>
+    <string name="title_select_url_none_found">没有找到链接</string>
     <string name="msg_select_url_copied_to_clipboard">链接已复制到剪贴板</string>
 
     <string name="action_share_transcript">分享副本</string>

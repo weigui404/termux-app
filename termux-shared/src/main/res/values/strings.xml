@@ -14,15 +14,15 @@
 
 <resources>
 
-    <string name="msg_directory_absolute_path">%1$s Directory Absolute Path: \"%2$s\"</string>
+    <string name="msg_directory_absolute_path">%1$s 目录绝对路径: \"%2$s\"</string>
 
 
 
     <!-- PackageUtils -->
-    <string name="error_app_not_installed_or_disabled_warning">The %1$s (%2$s) app is not installed or is disabled.</string>
-    <string name="error_get_package_context_failed_title">Failed To Get Package Context</string>
-    <string name="error_get_package_context_failed_message">Failed to get package context for the \"%1$s\" package.
-        This may be because the app package is not installed or it has different APK signature from the current app.</string>
+    <string name="error_app_not_installed_or_disabled_warning">%1$s (%2$s) app未安装或被禁用</string>
+    <string name="error_get_package_context_failed_title">获取软件包上下文失败</string>
+    <string name="error_get_package_context_failed_message">获取\"%1$s\"软件包上下文失败, 
+        这可能是因为应用程序包未安装，或者其应用签名与当前应用不同</string>
     <string name="error_get_package_context_failed_help_url_message">Check %1$s for more details.</string>
     <string name="error_get_component_state_failed">Failed to get %1$s/%2$s component state</string>
     <string name="error_enable_component_failed">Failed to enable %1$s/%2$s component</string>
@@ -31,7 +31,7 @@
 
 
     <!-- PermissionUtils -->
-    <string name="message_sudo_please_grant_permissions">Please grant requested permission(s)</string>
+    <string name="message_sudo_please_grant_permissions">请授予请求的权限</string>
     <string name="error_failed_to_request_permissions">Failed to request permissions with request code %1$d: %2$s</string>
     <string name="error_attempted_to_check_for_permissions_not_requested">Attempted to check for permissions that have not been requested in app manifest: %1$s</string>
     <string name="error_attempted_to_ask_for_permissions_not_requested">Attempted to ask for permissions that have not been requested in app manifest: %1$s</string>
@@ -80,17 +80,10 @@
 
     <!-- TermuxUtils -->
     <string name="msg_report_issue">
-        If you want to report this issue, then copy its text from the options menu (3-dots on top right) and post
-        an issue on one of the following links.
-        \n\nIf you are posting a Termux app crash report, then please provide details on what you were doing that
-        caused the crash and how to reproduce it, if possible.
-        \n\nIf you are posting an issue on GitHub, then post it in the repository at which the report belongs at.
-        Issues opened or emails sent with **(partial) screenshots** instead of copied text or a file of this report
-        **will likely be automatically closed/deleted**. You may optionally remove any device specific info that
-        you consider private or don\'t want to share or that is not relevant to the issue.
-        \n\nWe do not provide support for any hacking related tools/scripts. Any questions asked about them over email,
-        on GitHub or other official termux community forums **will likely be automatically closed/deleted** and may
-        even result in **temporary or permanent** ban. Check %1$s/wiki/Hacking for details.</string>
+        如果您想报告此问题，请从选项菜单（右上角的3个点）复制其文本，并在以下链接之一上发布issue。 
+\n\n如果您要发布 Termux 应用程序崩溃报告，请提供有关您所做的操作导致崩溃的详细信息以及如何重现该崩溃（如果可能）。 
+\n\n如果您要在 GitHub 上发布问题，请将其发布到报告所属的存储库中。 已打开的问题或已发送的电子邮件带有**（部分）屏幕截图**，而不是复制的文本或本报告的文件 **可能会自动关闭/删除**。您可以选择删除您认为私密或不想共享或与问题无关的任何设备特定信息。 
+\n\n我们不为任何黑客相关工具/脚本提供支持。通过电子邮件、GitHub 或其他官方 termux 社区论坛提出的任何有关它们的问题**可能会自动关闭/删除**，甚至可能导致**临时或永久**禁令。检查 %1$s/wiki/Hacking 了解详细信息。</string>
 
     <string name="msg_termux_app_required_by_app">The &TERMUX_APP_NAME; is required by the %1$s app to run termux commands.</string>
     <string name="error_termux_app_package_context_not_accessible">The &TERMUX_APP_NAME; app (package context) is not accessible.</string>
@@ -103,36 +96,36 @@
 
 
     <!-- Miscellaneous -->
-    <string name="action_yes">Yes</string>
-    <string name="action_no">No</string>
-    <string name="action_copy">Copy</string>
-    <string name="action_share">Share</string>
-    <string name="action_cancel">Cancel</string>
-    <string name="action_save_to_file">Save To File</string>
+    <string name="action_yes">是</string>
+    <string name="action_no">否</string>
+    <string name="action_copy">复制</string>
+    <string name="action_share">分享</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_save_to_file">保存到文件</string>
 
-    <string name="msg_storage_permission_granted_on_request">The storage permission granted by user on request</string>
-    <string name="msg_storage_permission_not_granted_on_request">The storage permission not granted by user on request</string>
+    <string name="msg_storage_permission_granted_on_request">用户授予存储权限</string>
+    <string name="msg_storage_permission_not_granted_on_request">用户未授予储存权限</string>
 
 
 
     <!-- Launcher Icons -->
-    <string name="action_enable_launcher_icon">Enable Launcher Icon</string>
-    <string name="action_disable_launcher_icon">Disable Launcher Icon</string>
-    <string name="msg_enabling_launcher_icon">Enabling %1$s app launcher icon</string>
-    <string name="msg_disabling_launcher_icon">Disabling %1$s app launcher icon</string>
-    <string name="setting_launcher_icon_title">Launcher Icon Enabled</string>
-    <string name="setting_launcher_icon_enabled_off">Launcher Icon will be disabled.</string>
-    <string name="setting_launcher_icon_enabled_on">Launcher Icon will be enabled. (Default)</string>
+    <string name="action_enable_launcher_icon">显示桌面图标</string>
+    <string name="action_disable_launcher_icon">隐藏桌面图标</string>
+    <string name="msg_enabling_launcher_icon">显示 %1$s app桌面图标</string>
+    <string name="msg_disabling_launcher_icon">隐藏 %1$s app桌面图标</string>
+    <string name="setting_launcher_icon_title">桌面图标已显示</string>
+    <string name="setting_launcher_icon_enabled_off">隐藏桌面图标</string>
+    <string name="setting_launcher_icon_enabled_on">显示桌面图标(默认)</string>
 
 
 
     <!-- Log Level -->
-    <string name="log_level_title">Log Level</string>
-    <string name="log_level_off">Off</string>
+    <string name="log_level_title">日志级别</string>
+    <string name="log_level_off">关闭</string>
     <string name="log_level_normal">Normal</string>
     <string name="log_level_debug">Debug</string>
     <string name="log_level_verbose">Verbose</string>
     <string name="log_level_unknown">*Unknown*</string>
-    <string name="log_level_value">Logcat log level set to \"%1$s\"</string>
+    <string name="log_level_value">日志级别设置为 \"%1$s\"</string>
 
 </resources>

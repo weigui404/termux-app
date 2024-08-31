@@ -68,9 +68,9 @@
 
     <string name="action_share_selected_text">分享所选文本</string>
     <string name="title_share_selected_text">文本</string>
-    <string name="title_share_selected_text_with">发送所选文本到:</string>
+    <string name="title_share_selected_text_with">Send selected text to:</string>
 
-    <string name="action_autofill_password">自动填充密码</string>
+    <string name="action_autofill_password">Autofill password</string>
 
     <string name="action_reset_terminal">重置</string>
     <string name="msg_terminal_reset">终端重置</string>
